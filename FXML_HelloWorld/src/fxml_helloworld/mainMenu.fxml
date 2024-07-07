@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@mainMenu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.mainMenuController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" stylesheets="@login.css">
+         <children>
+            <AnchorPane prefHeight="768.0" prefWidth="810.0" styleClass="mainMenuSide-bar1">
+               <children>
+                  <AnchorPane prefHeight="255.0" prefWidth="810.0" styleClass="halfUpfMainMenuSide-bar1">
+                     <children>
+                        <Label fx:id="labelMainMenu1" layoutX="102.0" layoutY="55.0" text="!!!Pilih lah sesuai dengan keperluan anda!!!">
+                           <font>
+                              <Font name="Ebrima Bold" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelMainMenu3" layoutX="178.0" layoutY="192.0" text="*Jika anda seorang PEMILIH, maka pilihlah PEMILIH">
+                           <font>
+                              <Font name="Ebrima" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelMainMenu2" layoutX="78.0" layoutY="134.0" text="*JIka anda seorang PETUGAS/PENGAWAS, maka pilihlah PETUGAS/PENGAWAS">
+                           <font>
+                              <Font name="Ebrima" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutY="258.0" prefHeight="506.0" prefWidth="810.0" styleClass="halfDownfMainMenuSide-bar1">
+                     <children>
+                        <AnchorPane layoutX="-7.0" prefHeight="506.0" prefWidth="270.0">
+                           <children>
+                              <Label fx:id="labelPemilih" layoutX="90.0" layoutY="175.0" text="Pemilih">
+                                 <font>
+                                    <Font name="Calibri" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="pemilihButton" layoutX="36.0" layoutY="253.0" mnemonicParsing="false" onAction="#handlePemilihButtonAction" prefHeight="49.0" prefWidth="199.0" styleClass="pemilihButton" text="Pemilih" />
+                              <ImageView fx:id="pemilihIcon" layoutX="87.0" layoutY="46.0">
+                                 <image>
+                                    <Image url="@../sourceImage/user%2096.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="263.0" prefHeight="506.0" prefWidth="270.0">
+                           <children>
+                              <Label fx:id="labelPetugasatauPengawas" layoutX="36.0" layoutY="176.0" text="Petugas/Pengawas">
+                                 <font>
+                                    <Font name="Calibri" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="PetugasatauPengawasButton" layoutX="35.0" layoutY="253.0" mnemonicParsing="false" onAction="#handlePetugasatauPengawasButtonAction" prefHeight="49.0" prefWidth="199.0" styleClass="PetugasatauPengawasButton" text="Petugas/Pengawas" />
+                              <ImageView fx:id="PetugasatauPengawasIcon" layoutX="87.0" layoutY="45.0">
+                                 <image>
+                                    <Image url="@../sourceImage/user%2096.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="533.0" prefHeight="506.0" prefWidth="270.0">
+                           <children>
+                              <Label layoutX="50.0" layoutY="176.0" text="Administrator">
+                                 <font>
+                                    <Font name="Calibri" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="AdministratorButton" layoutX="36.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleAdministratorButtonAction" prefHeight="49.0" prefWidth="199.0" styleClass="AdministratorButton" text="Administrator" />
+                              <ImageView layoutX="87.0" layoutY="44.0">
+                                 <image>
+                                    <Image url="@../sourceImage/user%2096.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children></AnchorPane>
+               </children></AnchorPane>
+            <AnchorPane layoutX="810.0" prefHeight="768.0" prefWidth="556.0" styleClass="mainMenuSide-bar2">
+               <children>
+                  <ImageView fitHeight="467.0" fitWidth="543.0" layoutX="7.0" layoutY="262.0">
+                     <image>
+                        <Image url="@../sourceImage/kotakPemilihan-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="134.0" fitWidth="360.0" layoutX="99.0" layoutY="175.0">
+                     <image>
+                        <Image url="@../sourceImage/tagLine.jpg" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

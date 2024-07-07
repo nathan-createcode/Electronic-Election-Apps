@@ -1,0 +1,62 @@
+.halfRightPetugasPemilihDashboard {
+    -fx-background-color: linear-gradient(to bottom, red, white);
+    
+}
+
+.buttonLogOutPetugasPengawas {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: red;
+}
+
+.buttonLogOutPetugasPengawas:hover {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+.middlePetugasPemilih {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 8, 0, 0, 0);
+    -fx-padding: 10;
+}
+
+.box3PetugasPemilih {
+    -fx-background-color: linear-gradient(to bottom, red, white);
+}
+
+/* Stylesheet for the JavaFX application */
+
+/* Define colors for the bars */
+.chart-bar {
+    -fx-bar-width: 20px; /* Atur besar bar di sini */
+    -fx-category-gap: 10px; /* Jarak antar kategori */
+    -fx-bar-gap: 5px; /* Jarak antar bar dalam kategori yang sama */
+}
+
+.default-color0.chart-bar { -fx-bar-fill: red; } /* Warna untuk Paslon 01 */
+.default-color1.chart-bar { -fx-bar-fill: green; } /* Warna untuk Paslon 02 */
+.default-color2.chart-bar { -fx-bar-fill: blue; } /* Warna untuk Paslon 03 */
+
+
+.DataPemilih {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+.DataPemilih:hover {
+    -fx-background-color: white;
+    -fx-text-fill: red;
+}
+
+.logOut{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: red;
+}
+
+.logOut:hover {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}

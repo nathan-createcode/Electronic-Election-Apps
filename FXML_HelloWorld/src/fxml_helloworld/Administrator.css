@@ -1,0 +1,25 @@
+.button{
+    -fx-background-color: white; /* Warna latar belakang putih */
+    -fx-text-fill: red; /* Warna teks hitam */
+    -fx-border-color: red; /* Garis batas hitam */
+    -fx-border-width: 2px; /* Lebar garis batas */
+    -fx-border-radius: 30px;
+    -fx-padding: 10px 20px; /* Ruang di dalam tombol */
+    -fx-font-size: 18px; /* Ukuran teks */
+    -fx-font-weight: bold; /* Teks tebal */
+    -fx-background-radius: 30px; /* Sudut melengkung */
+    -fx-cursor: hand; /* Mengubah kursor menjadi pointer saat di hover */
+    -fx-transition: all 0.3s ease; /* Animasi transisi */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 0.5, 2);
+}
+
+.button:hover {
+    -fx-background-color: red; /* Warna latar belakang hitam saat di hover */
+    -fx-text-fill: white; /* Warna teks putih saat di hover */
+    -fx-background-radius: 30px;
+}
+
+/* Efek fokus */
+.button :focused {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 5,0,0,0 ); /* Bayangan saat di fokus */
+}

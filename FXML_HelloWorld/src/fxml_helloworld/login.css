@@ -1,0 +1,67 @@
+/*BAGIAN PETUGAS/PENGAWAS*/
+.side-bar1 {
+    -fx-background-color: white;
+}
+
+.side-bar2 {
+    -fx-background-image: url(file:///C:/Users/HP/OneDrive/Documents/FXML_HelloWorld/FXML_HelloWorld/src/sourceImage/hariPemilihan.jpg);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.garis-login {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: rgba(109, 109, 109, 0.756);
+}
+
+.garis-login2:hover {
+    -fx-background-color: #c2bfbf9a;
+}
+
+.forgetBtn:hover {
+    -fx-text-fill: rgba(37, 37, 73, 0.698);
+    -fx-underline: true;
+}
+
+    /* Tombol Login */
+.loginButton {
+    -fx-background-color: white; /* Warna latar belakang putih */
+    -fx-text-fill: red; /* Warna teks hitam */
+    -fx-border-color: red; /* Garis batas hitam */
+    -fx-border-width: 2px; /* Lebar garis batas */
+    -fx-border-radius: 30px;
+    -fx-padding: 10px 20px; /* Ruang di dalam tombol */
+    -fx-font-size: 16px; /* Ukuran teks */
+    -fx-font-weight: bold; /* Teks tebal */
+    -fx-background-radius: 30px; /* Sudut melengkung */
+    -fx-cursor: hand; /* Mengubah kursor menjadi pointer saat di hover */
+    -fx-transition: all 0.3s ease; /* Animasi transisi */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 0.5, 2);
+}
+
+/* Efek hover */
+.loginButton:hover {
+    -fx-background-color: red; /* Warna latar belakang hitam saat di hover */
+    -fx-text-fill: white; /* Warna teks putih saat di hover */
+    -fx-background-radius: 30px;
+}
+
+/* Efek fokus */
+.loginButton:focused {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 5,0,0,0 ); /* Bayangan saat di fokus */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

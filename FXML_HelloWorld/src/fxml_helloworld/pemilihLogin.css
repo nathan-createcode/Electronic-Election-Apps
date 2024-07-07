@@ -1,0 +1,56 @@
+/*UNTUK BAGAIN STYLING TAMPILAN Pemilih*/
+
+/*UNTUK BAGIAN STYLING TAMPILAN pemilihSide-bar1*/
+.pemilihSide-bar1 {
+    -fx-background-color: #F8F8FF;
+    }
+    
+    .textFieldNIKPemilih {
+        -fx-background-color: transparent;
+        -fx-border-width: 0 0 2px 0;
+        -fx-border-color: rgba(109, 109, 109, 0.756);
+    }
+    
+    .textFieldNIKPemilih:hover {
+        -fx-background-color: #c2bfbf9a;
+    }
+    
+    .passwordFieldTanggalLahirPemilih {
+        -fx-background-color: transparent;
+        -fx-border-width: 0 0 2px 0;
+        -fx-border-color: rgba(109, 109, 109, 0.756);
+    }
+    
+    .textFieldTanggalLahirPemilih:hover {
+        -fx-background-color: #c2bfbf9a;
+    }
+    
+    .pemilihMasukButton {
+        -fx-background-color: white; /* Warna latar belakang putih */
+        -fx-text-fill: black; /* Warna teks hitam */
+        -fx-border-color: #808080; /* Garis batas hitam */
+        -fx-border-width: 2px; /* Lebar garis batas */
+        -fx-border-radius: 30px; 
+        -fx-padding: 10px 20px; /* Ruang di dalam tombol */
+        -fx-font-size: 16px; /* Ukuran teks */
+        -fx-font-weight: bold; /* Teks tebal */
+        -fx-background-radius: 30px; /* Sudut melengkung */
+        -fx-cursor: hand; /* Mengubah kursor menjadi pointer saat di hover */
+        -fx-transition: all 0.3s ease;
+        -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 10,0.5,0,5 );
+    }
+    
+    .pemilihMasukButton:hover {
+        -fx-background-color: #808080; /* Warna latar belakang hitam saat di hover */
+        -fx-text-fill: white; /* Warna teks putih saat di hover */
+        -fx-background-radius: 30px;
+    }
+    
+    .pemilihMasukButton:hover{
+        -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 5,0,0,0 ); /* Bayangan saat di fokus */
+    }
+    
+    /*UNTUK BAGIAN STYLING TAMPILAN pemilihSide-bar2*/
+    .pemilihSide-bar2 {
+    
+    }

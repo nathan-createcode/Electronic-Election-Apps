@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@admin.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.AdministratorController">
+   <children>
+      <BorderPane prefHeight="768.0" prefWidth="1366.0">
+         <top>
+            <AnchorPane prefHeight="45.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="35.0" prefWidth="1366.0">
+                     <children>
+                        <Label layoutX="53.0" layoutY="14.0" text="Administrator">
+                           <font>
+                              <Font name="Tahoma" size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="14.0" layoutY="4.0">
+                           <image>
+                              <Image url="@../sourceImage/user%20%20full%20hitam(1).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="723.0" prefWidth="200.0" styleClass="halfRightPetugasPemilihDashboard" stylesheets="@FXMLpengawasPetugas.css">
+                     <children>
+                        <Label layoutX="58.0" layoutY="168.0" text="welcome," textFill="WHITE">
+                           <font>
+                              <Font name="Tahoma" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="namaPetugasPemilih" alignment="CENTER" layoutY="205.0" prefHeight="25.0" prefWidth="199.0" text="Nathan" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Tahoma Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Line endX="64.0" layoutX="119.0" layoutY="261.0" startX="-100.0" stroke="WHITE" />
+                        <ImageView fitHeight="103.0" fitWidth="106.0" layoutX="48.0" layoutY="46.0">
+                           <image>
+                              <Image url="@../sourceImage/User%20red.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="64.0" layoutX="117.0" layoutY="563.0" startX="-100.0" stroke="#f80000" />
+                        <Button fx:id="LogOutPetugasPemilih" layoutY="600.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="200.0" styleClass="logOut" stylesheets="@FXMLpengawasPetugas.css" text="Log Out">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="36.0" layoutY="605.0" nodeOrientation="RIGHT_TO_LEFT">
+                           <image>
+                              <Image url="@../sourceImage/log-out.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TableView fx:id="TableAdministrator" layoutX="31.0" layoutY="14.0" prefHeight="284.0" prefWidth="735.0">
+                     <columns>
+                        <TableColumn fx:id="KolomNamaAdministrator" prefWidth="358.0" text="Nama" />
+                        <TableColumn fx:id="KolomNIKAdministrator" minWidth="0.0" prefWidth="393.0" text="NIK" />
+                     </columns>
+                  </TableView>
+                  <AnchorPane layoutX="802.0" layoutY="14.0" prefHeight="390.0" prefWidth="342.0" styleClass="middlePetugasPemilih">
+                     <children>
+                        <AnchorPane layoutX="22.0" layoutY="21.0" prefHeight="349.0" prefWidth="298.0" styleClass="box3PetugasPemilih" stylesheets="@FXMLpengawasPetugas.css">
+                           <children>
+                              <Label layoutX="38.0" layoutY="25.0" prefHeight="27.0" prefWidth="216.0" text="Delete Data Pengawas" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="DeleteNamaPengawas" layoutX="52.0" layoutY="109.0" />
+                              <TextField fx:id="DeleteNIKPengawas" layoutX="52.0" layoutY="199.0" />
+                              <Button fx:id="DeleteButtonPengawas" layoutX="56.0" layoutY="284.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="187.0" stylesheets="@Administrator.css" text="Delete">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Button>
+                              <Label layoutX="52.0" layoutY="88.0" text="Nama" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="52.0" layoutY="182.0" text="NIK" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="31.0" layoutY="420.0" prefHeight="279.0" prefWidth="734.0" styleClass="middlePetugasPemilih">
+                     <children>
+                        <AnchorPane layoutX="38.0" layoutY="24.0" prefHeight="232.0" prefWidth="673.0" styleClass="box3PetugasPemilih" stylesheets="@FXMLpengawasPetugas.css">
+                           <children>
+                              <Label layoutX="264.0" layoutY="7.0" prefHeight="27.0" prefWidth="146.0" text="Tambah Data " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="TambahNamaPengawas" layoutX="130.0" layoutY="64.0" prefHeight="31.0" prefWidth="413.0" />
+                              <TextField fx:id="TambahNIKpengawas" layoutX="130.0" layoutY="107.0" prefHeight="31.0" prefWidth="413.0" />
+                              <Label layoutX="36.0" layoutY="68.0" text="Nama" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="46.0" layoutY="111.0" text="NIK" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="TambahButtonPengawas" layoutX="244.0" layoutY="167.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="187.0" stylesheets="@Administrator.css" text="Tambah">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="802.0" layoutY="420.0" prefHeight="279.0" prefWidth="342.0" styleClass="middlePetugasPemilih">
+                     <children>
+                        <AnchorPane layoutX="22.0" layoutY="23.0" prefHeight="233.0" prefWidth="298.0" styleClass="box3PetugasPemilih" stylesheets="@FXMLpengawasPetugas.css">
+                           <children>
+                              <Label layoutX="103.0" layoutY="14.0" prefHeight="27.0" prefWidth="92.0" text="Cari Data" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="CariNIKpengawas" layoutX="56.0" layoutY="101.0" />
+                              <Label layoutX="56.0" layoutY="83.0" text="NIK" textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="CariButtonPengawas" layoutX="56.0" layoutY="168.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="187.0" stylesheets="@Administrator.css" text="Cari">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <Button fx:id="KembaliKeDaftarPemilihButtonTable" layoutX="283.0" layoutY="327.0" mnemonicParsing="false" stylesheets="@Administrator.css" text="Kembali Ke Daftar Petugas">
+                     <font>
+                        <Font name="Tahoma" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,105 @@
+/*UNTUK BAGAIN STYLING TAMPILAN mainMENU*/
+
+/*UNTUK BAGIAN STYLING TAMPILAN mainMenuSide-bar1*/
+.mainMenuSide-bar1 {
+    -fx-background-color: white;
+}
+
+.halfUpfMainMenuSide-bar1 {
+    -fx-background-color: #ffffff;
+    -fx-border-color: red;
+    -fx-border-width: 3px;
+}
+
+.halfDownfMainMenuSide-bar1 {
+    -fx-background-color: white;
+}
+
+.pemilihButton {
+    -fx-background-color: white; /* Warna latar belakang putih */
+    -fx-text-fill: black; /* Warna teks hitam */
+    -fx-border-color: #808080; /* Garis batas hitam */
+    -fx-border-width: 2px; /* Lebar garis batas */
+    -fx-border-radius: 30px; 
+    -fx-padding: 10px 20px; /* Ruang di dalam tombol */
+    -fx-font-size: 16px; /* Ukuran teks */
+    -fx-font-weight: bold; /* Teks tebal */
+    -fx-background-radius: 30px; /* Sudut melengkung */
+    -fx-cursor: hand; /* Mengubah kursor menjadi pointer saat di hover */
+    -fx-transition: all 0.3s ease;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 10,0.5,0,5 );
+}
+
+.pemilihButton:hover {
+    -fx-background-color: #808080; /* Warna latar belakang hitam saat di hover */
+    -fx-text-fill: white; /* Warna teks putih saat di hover */
+    -fx-background-radius: 30px;
+}
+
+/* Efek fokus */
+.pemilihButton:focused {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 5,0,0,0 ); /* Bayangan saat di fokus */
+}
+
+.PetugasatauPengawasButton {
+    -fx-background-color: white; /* Warna latar belakang putih */
+    -fx-text-fill: black; /* Warna teks hitam */
+    -fx-border-color: black; /* Garis batas hitam */
+    -fx-border-width: 2px; /* Lebar garis batas */
+    -fx-border-radius: 30px; 
+    -fx-padding: 10px 20px; /* Ruang di dalam tombol */
+    -fx-font-size: 16px; /* Ukuran teks */
+    -fx-font-weight: bold; /* Teks tebal */
+    -fx-background-radius: 30px; /* Sudut melengkung */
+    -fx-cursor: hand; /* Mengubah kursor menjadi pointer saat di hover */
+    -fx-transition: all 0.3s ease;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 0.5, 2);
+}
+
+.PetugasatauPengawasButton:hover {
+    -fx-background-color: black; /* Warna latar belakang hitam saat di hover */
+    -fx-text-fill: white; /* Warna teks putih saat di hover */
+    -fx-background-radius: 30px; /* Sudut melengkung untuk background saat hover */
+}
+
+/* Efek fokus */
+.PetugasatauPengawasButton:focused {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 5); /* Menyamakan bayangan fokus dengan tombol Pemilih */
+    -fx-background-radius: 30px; /* Sudut melengkung untuk background saat fokus */
+}
+
+.AdministratorButton {
+    -fx-background-color: white; /* Warna latar belakang putih */
+    -fx-text-fill: red; /* Warna teks hitam */
+    -fx-border-color: red; /* Garis batas hitam */
+    -fx-border-width: 2px; /* Lebar garis batas */
+    -fx-border-radius: 30px; 
+    -fx-padding: 10px 20px; /* Ruang di dalam tombol */
+    -fx-font-size: 16px; /* Ukuran teks */
+    -fx-font-weight: bold; /* Teks tebal */
+    -fx-background-radius: 30px; /* Sudut melengkung */
+    -fx-cursor: hand; /* Mengubah kursor menjadi pointer saat di hover */
+    -fx-transition: all 0.3s ease;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 0.5, 2);
+}
+
+.AdministratorButton:hover {
+    -fx-background-color: red; /* Warna latar belakang hitam saat di hover */
+    -fx-text-fill: white; /* Warna teks putih saat di hover */
+    -fx-background-radius: 30px; /* Sudut melengkung untuk background saat hover */
+}
+
+/* Efek fokus */
+.AdministratorButton:focused {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 5); /* Menyamakan bayangan fokus dengan tombol Pemilih */
+    -fx-background-radius: 30px; /* Sudut melengkung untuk background saat fokus */
+}
+
+
+/*UNTUK BAGIAN STYLING TAMPILAN mainMenuSide-bar2*/
+.mainMenuSide-bar2{
+    -fx-background-image: url(file:///C:/Users/HP/OneDrive/Documents/FXML_HelloWorld/FXML_HelloWorld/src/sourceImage/polosMerah.jpg); /*gambar pertama*/
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}

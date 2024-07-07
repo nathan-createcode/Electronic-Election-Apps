@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.pemilihDashboardController">
+   <children>
+      <AnchorPane prefHeight="768.0" prefWidth="1366.0">
+         <children>
+            <ImageView fitHeight="768.0" fitWidth="455.0">
+               <image>
+                  <Image url="@../sourceImage/polosMerah.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="768.0" fitWidth="456.0" layoutX="455.0">
+               <image>
+                  <Image url="@../sourceImage/polosMerah.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="768.0" fitWidth="456.0" layoutX="911.0">
+               <image>
+                  <Image url="@../sourceImage/polosMerah.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane prefHeight="768.0" prefWidth="455.0">
+               <children>
+                  <ToggleButton fx:id="Paslon01" layoutX="108.0" layoutY="284.0" mnemonicParsing="false" onAction="#handlePaslon01" prefHeight="328.0" prefWidth="240.0" />
+                  <ImageView fx:id="imgGenta" fitHeight="200.0" fitWidth="150.0" layoutX="153.0" layoutY="348.0">
+                     <image>
+                        <Image url="@../sourceImage/Genta.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="labelGenta" layoutX="178.0" layoutY="559.0" text="GENTA">
+                     <font>
+                        <Font name="Ebrima Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="211.0" layoutY="293.0" text="01">
+                     <font>
+                        <Font name="Ebrima Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <AnchorPane layoutX="455.0" prefHeight="768.0" prefWidth="456.0">
+               <children>
+                  <ToggleButton fx:id="Paslon02" layoutX="108.0" layoutY="284.0" mnemonicParsing="false" onAction="#handlePaslon02" prefHeight="328.0" prefWidth="240.0" />
+                  <ImageView fx:id="imgTio" fitHeight="200.0" fitWidth="176.0" layoutX="140.0" layoutY="347.0">
+                     <image>
+                        <Image url="@../sourceImage/Tio.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="labelTio" layoutX="203.0" layoutY="560.0" text="TIO">
+                     <font>
+                        <Font name="Ebrima Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="211.0" layoutY="293.0" text="02">
+                     <font>
+                        <Font name="Ebrima Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <AnchorPane layoutX="910.0" prefHeight="768.0" prefWidth="456.0">
+               <children>
+                  <ToggleButton fx:id="Paslon03" layoutX="121.0" layoutY="286.0" mnemonicParsing="false" onAction="#handlePaslon03" prefHeight="328.0" prefWidth="240.0" />
+                  <ImageView fx:id="imgSulthan" fitHeight="207.0" fitWidth="142.0" layoutX="170.0" layoutY="344.0">
+                     <image>
+                        <Image url="@../sourceImage/Sulthan.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="labelSulthan" layoutX="170.0" layoutY="560.0" prefHeight="39.0" prefWidth="142.0" text="SULTHAN">
+                     <font>
+                        <Font name="Ebrima Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="211.0" layoutY="293.0" text="03">
+                     <font>
+                        <Font name="Ebrima Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <AnchorPane prefHeight="228.0" prefWidth="1366.0">
+               <children>
+                  <ImageView fitHeight="168.0" fitWidth="180.0" layoutX="62.0" layoutY="51.0">
+                     <image>
+                        <Image url="@../../../../../../Downloads/Emblem_Of_Indonesia___Indonesian_National_Symbol___Garuda_Pancasila_Sticker-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="490.0" layoutY="31.0" text="Pemilihan Umum 2024 " textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="316.0" layoutY="101.0" text="Pilihlan dengan benar, suara anda adalah masa depan bangsa." textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="334.0" layoutY="159.0" text="Gunakanlah hak pilih anda, karena partisipasi anda penting. " textFill="WHITE">
+                     <font>
+                        <Font name="Tahoma Bold" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

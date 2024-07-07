@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@FXMLpengawasPetugas.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.FXMLpetugasPengawasDashboardController">
+   <children>
+      <AnchorPane prefHeight="768.0" prefWidth="1366.0" stylesheets="@FXMLpengawasPetugas.css">
+         <children>
+            <BorderPane layoutX="126.0" layoutY="81.0" prefHeight="768.0" prefWidth="1366.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <top>
+                  <AnchorPane prefHeight="45.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane layoutX="30.0" layoutY="-86.0" prefHeight="35.0" prefWidth="1366.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Label layoutX="53.0" layoutY="14.0" text="Petugas atau Pengawas System">
+                                 <font>
+                                    <Font name="Tahoma" size="14.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="14.0" layoutY="4.0">
+                                 <image>
+                                    <Image url="@../sourceImage/user%20%20full%20hitam(1).png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </top>
+               <left>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane layoutY="-1.0" prefHeight="709.0" prefWidth="200.0" styleClass="halfRightPetugasPemilihDashboard" stylesheets="@FXMLpengawasPetugas.css" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
+                           <children>
+                              <Label layoutX="58.0" layoutY="168.0" text="welcome," textFill="WHITE">
+                                 <font>
+                                    <Font name="Tahoma" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="namaPetugasPemilih" alignment="CENTER" layoutY="205.0" prefHeight="25.0" prefWidth="199.0" text="FULAN" textAlignment="CENTER" textFill="WHITE">
+                                 <font>
+                                    <Font name="Tahoma Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="64.0" layoutX="119.0" layoutY="261.0" startX="-100.0" stroke="WHITE" />
+                              <ImageView fitHeight="103.0" fitWidth="106.0" layoutX="48.0" layoutY="46.0">
+                                 <image>
+                                    <Image url="@../sourceImage/User%20red.png" />
+                                 </image>
+                              </ImageView>
+                              <Line endX="64.0" layoutX="117.0" layoutY="563.0" startX="-100.0" stroke="#f80000" />
+                              <Button fx:id="LogOutPetugasPemilih" layoutY="600.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="200.0" stylesheets="@FXMLpengawasPetugas.css" text="Log Out">
+                                 <font>
+                                    <Font name="Arial Bold" size="15.0" />
+                                 </font>
+                                 <styleClass>
+                                    <String fx:value="buttonLogOutPetugasPemilih" />
+                                    <String fx:value="buttonLogOutPetugasPengawas" />
+                                 </styleClass>
+                              </Button>
+                              <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="36.0" layoutY="605.0" nodeOrientation="RIGHT_TO_LEFT">
+                                 <image>
+                                    <Image url="@../sourceImage/log-out.png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="DatapemilihButton" layoutY="306.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="201.0" styleClass="DataPemilih" stylesheets="@FXMLpengawasPetugas.css" text="Data Pemilih">
+                                 <font>
+                                    <Font name="Arial Bold" size="18.0" />
+                                 </font></Button>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </left>
+               <center>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane layoutX="18.0" prefHeight="200.0" prefWidth="1130.0" styleClass="middlePetugasPemilih" stylesheets="@FXMLpengawasPetugas.css">
+                           <children>
+                              <AnchorPane layoutX="26.0" layoutY="20.0" prefHeight="177.0" prefWidth="325.0" styleClass="box3PetugasPemilih" stylesheets="@FXMLpengawasPetugas.css">
+                                 <children>
+                                    <Label fx:id="TotalPemilihNumber" alignment="CENTER_RIGHT" layoutX="11.0" layoutY="14.0" prefHeight="32.0" prefWidth="302.0" text="0" textFill="WHITE">
+                                       <font>
+                                          <Font name="Tahoma Bold" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="75.0" fitWidth="80.0" layoutX="14.0" layoutY="51.0">
+                                       <image>
+                                          <Image url="@../sourceImage/users.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Hyperlink fx:id="TotalPemilihLink" layoutX="100.0" layoutY="142.0" onAction="#handleTotalPemilihLinkClick" text="Total Pemilih">
+                                       <font>
+                                          <Font name="Tahoma" size="20.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="376.0" layoutY="21.0" prefHeight="177.0" prefWidth="350.0" styleClass="box3PetugasPemilih" stylesheets="@FXMLpengawasPetugas.css">
+                                 <children>
+                                    <ImageView fitHeight="75.0" fitWidth="80.0" layoutX="14.0" layoutY="51.0">
+                                       <image>
+                                          <Image url="@../sourceImage/button.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label fx:id="JumlahyangSudahMemilihNumber" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="14.0" prefHeight="32.0" prefWidth="329.0" text="0" textFill="WHITE">
+                                       <font>
+                                          <Font name="Tahoma Bold" size="25.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="34.0" layoutY="152.0" text="Jumlah yang Sudah Memilih">
+                                       <font>
+                                          <Font name="Tahoma Bold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane layoutX="757.0" layoutY="19.0" prefHeight="177.0" prefWidth="350.0" styleClass="box3PetugasPemilih" stylesheets="@FXMLpengawasPetugas.css">
+                                 <children>
+                                    <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="135.0" layoutY="49.0">
+                                       <image>
+                                          <Image url="@../sourceImage/job.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Hyperlink fx:id="pekerjaanPemilihLink" layoutX="91.0" layoutY="142.0" onAction="#handlePekerjaanPemilihLinkClick" text="Pekerjaan Pemilih">
+                                       <font>
+                                          <Font name="Tahoma" size="20.0" />
+                                       </font>
+                                    </Hyperlink>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="18.0" layoutY="226.0" prefHeight="483.0" prefWidth="1130.0" styleClass="middlePetugasPemilih" stylesheets="@FXMLpengawasPetugas.css">
+                           <children>
+                              <BarChart id="customBarChart" fx:id="PaslonBarChart" barGap="2.0" categoryGap="5.0" layoutX="24.0" layoutY="42.0" prefHeight="400.0" prefWidth="1084.0" stylesheets="@FXMLpengawasPetugas.css">
+                                 <xAxis>
+                                    <CategoryAxis side="BOTTOM" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis side="LEFT" />
+                                 </yAxis>
+                                 <styleClass>
+                                    <String fx:value="default-color0" />
+                                    <String fx:value="default-color1" />
+                                    <String fx:value="default-color2" />
+                                    <String fx:value="chart-bar" />
+                                 </styleClass>
+                              </BarChart>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

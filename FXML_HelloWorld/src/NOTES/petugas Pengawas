@@ -1,0 +1,32 @@
+baik diantara semua fitur yang kamu berikan saya akan memilih fitur :
+1. melihat berapa banyak pemilih yang sudah memilih
+2. melihat banyak nya pemilih berdasarkan paslon yang mereka pilih dengan penyampaian data menggunakan diagram batang
+3. memungkinkan para petugas/pengawas untuk mencari para pemilih yang sudah terdaftar
+4. menambahkan fitur pengelolan tps
+
+Untuk Petugas/pengawas :
+1. pada bagian suara tidak sah nanti dihapus saja guna 
+2. kalau nanti sistemnya udah diterapin tolong yang paling pertama di run itu bagian petugas/pengawasnya agar bagain live section penambahan
+diagram paslon pada stage petugas/pengawas dan statistik lainnya bakal sekalian ikut bertambah
+
+
+Untuk Administrators :
+1. Fitur CRUD nanti akan diterapkan pada bagian administrator
+2. Untuk reference ada di galeri 
+
+untuk Pemilih :
+1. nanti tolong pada bagian saat pemilih di run pada bagian mainMenu, scene mainMenu akan freeze jadi pemilih akan memilih secara berurutan
+2. nanti pada bagian file xml pemilih tolong ditambahkan satu kolom untuk status pemilih sudah memilih atau belum, bisa menggunakan status true/false atau bisa juga
+menggunakan sudah memilih atau belum memilih.
+3. data xml nya gak usah dinampakin yang penting ada aja
+
+Untuk mainMenu :
+1. nanti pada bagian mainMenu tolong dibuat agar pada mainMenu menampilkan Bagian pemilih akan freeze, jadi selagi pemilih 
+pertama belum menyelesaikan bagia memilih mereka, pemilih ke-2 belum dapat masuk untuk memilih.
+
+
+
+
+
+
+FXMLpekerjaanPemilihController

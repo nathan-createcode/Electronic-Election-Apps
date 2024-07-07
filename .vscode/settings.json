@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\1. Nathan Maulana Achmadi\\JAVA\\JAVA TOOLS\\openjfx-22.0.1_windows-x64_bin-sdk\\javafx-sdk-22.0.1\\lib\\javafx.base.jar",
+        "d:\\1. Nathan Maulana Achmadi\\JAVA\\JAVA TOOLS\\openjfx-22.0.1_windows-x64_bin-sdk\\javafx-sdk-22.0.1\\lib\\javafx.controls.jar",
+        "d:\\1. Nathan Maulana Achmadi\\JAVA\\JAVA TOOLS\\openjfx-22.0.1_windows-x64_bin-sdk\\javafx-sdk-22.0.1\\lib\\javafx.fxml.jar",
+        "d:\\1. Nathan Maulana Achmadi\\JAVA\\JAVA TOOLS\\openjfx-22.0.1_windows-x64_bin-sdk\\javafx-sdk-22.0.1\\lib\\javafx.graphics.jar",
+        "d:\\1. Nathan Maulana Achmadi\\JAVA\\JAVA TOOLS\\openjfx-22.0.1_windows-x64_bin-sdk\\javafx-sdk-22.0.1\\lib\\javafx.media.jar",
+        "d:\\1. Nathan Maulana Achmadi\\JAVA\\JAVA TOOLS\\openjfx-22.0.1_windows-x64_bin-sdk\\javafx-sdk-22.0.1\\lib\\javafx.swing.jar",
+        "d:\\1. Nathan Maulana Achmadi\\JAVA\\JAVA TOOLS\\openjfx-22.0.1_windows-x64_bin-sdk\\javafx-sdk-22.0.1\\lib\\javafx.web.jar",
+        "d:\\1. Nathan Maulana Achmadi\\JAVA\\JAVA TOOLS\\openjfx-22.0.1_windows-x64_bin-sdk\\javafx-sdk-22.0.1\\lib\\javafx-swt.jar",
+        "xstream-1.4.20.jar",
+        "FXML_HelloWorld/lib/xstream-1.4.20.jar"
+    ]
+}
